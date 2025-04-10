@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AI反欺诈系统 - 客户操作端</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI反欺诈系统，为客户提供高效、安全的反欺诈服务">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-146052-10']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="./index.html">AI反欺诈系统</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li class="active">
+                            <a href="./index.html">首页</a>
+                        </li>
+                        <li class="">
+                            <a href="#service">服务介绍</a>
+                        </li>
+                        <li class="">
+                            <a href="#business-model">商业模式</a>
+                        </li>
+                        <li class="">
+                            <a href="#profit-model">盈利模式</a>
+                        </li>
+                        <li class="">
+                            <a href="#contact">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron masthead">
+        <div class="container">
+            <h1>AI反欺诈系统</h1>
+            <p>高效、精准、安全的反欺诈解决方案，为您的业务保驾护航。</p>
+            <p>
+                <a href="#" class="btn btn-primary btn-large">立即体验</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="marketing">
+
+            <h1 id="service">服务介绍</h1>
+            <p class="marketing-byline">我们提供全方位的反欺诈服务，满足您的不同需求。</p>
+
+            <div class="row-fluid">
+                <div class="span4">
+                    <h2>实时监控</h2>
+                    <p>对交易进行实时监控，及时发现异常行为，毫秒级响应，保障交易安全。</p>
+                </div>
+                <div class="span4">
+                    <h2>风险评估</h2>
+                    <p>运用先进的AI算法，对客户进行风险评估，为您提供精准的风险预警。</p>
+                </div>
+                <div class="span4">
+                    <h2>定制化策略</h2>
+                    <p>根据您的业务特点，制定个性化的反欺诈策略，提高反欺诈效果。</p>
+                </div>
+            </div>
+
+            <hr class="soften">
+
+            <h1 id="business-model">商业模式</h1>
+            <p class="marketing-byline">我们的商业模式旨在为客户提供高价值的反欺诈服务。</p>
+
+            <div class="row-fluid">
+                <div class="span6">
+                    <h2>服务订阅</h2>
+                    <p>客户可以根据自身需求，选择不同的服务套餐进行订阅，享受持续的反欺诈服务。</p>
+                </div>
+                <div class="span6">
+                    <h2>定制开发</h2>
+                    <p>对于有特殊需求的客户，我们提供定制化开发服务，满足您的个性化需求。</p>
+                </div>
+            </div>
+
+            <hr class="soften">
+
+            <h1 id="profit-model">盈利模式</h1>
+            <p class="marketing-byline">我们通过多种盈利模式实现可持续发展。</p>
+
+            <div class="row-fluid">
+                <div class="span6">
+                    <h2>服务收费</h2>
+                    <p>根据客户选择的服务套餐和使用时长，收取相应的服务费用。</p>
+                </div>
+                <div class="span6">
+                    <h2>定制开发收费</h2>
+                    <p>对于定制化开发项目，根据项目的复杂度和工作量收取开发费用。</p>
+                </div>
+            </div>
+
+            <hr class="soften">
+
+            <h1 id="contact">联系我们</h1>
+            <p class="marketing-byline">如果您有任何疑问或需求，请随时联系我们。</p>
+
+            <form>
+                <div class="control-group">
+                    <label class="control-label" for="inputName">姓名</label>
+                    <div class="controls">
+                        <input type="text" id="inputName" placeholder="姓名">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="inputEmail">邮箱</label>
+                    <div class="controls">
+                        <input type="email" id="inputEmail" placeholder="邮箱">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="inputMessage">留言</label>
+                    <div class="controls">
+                        <textarea id="inputMessage" rows="3" placeholder="请输入您的留言"></textarea>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <button type="submit" class="btn">提交</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+        <div class="container">
+            <p>设计与开发团队</p>
+            <p>代码遵循开源协议，文档遵循相关知识共享协议。</p>
+            <ul class="footer-links">
+                <li><a href="#">博客</a></li>
+                <li class="muted">&middot;</li>
+                <li><a href="#">问题反馈</a></li>
+                <li class="muted">&middot;</li>
+                <li><a href="#">更新日志</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+
+    <script src="assets/js/holder/holder.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+
+    <script src="assets/js/application.js"></script>
+
+    <!-- Analytics
+    ================================================== -->
+    <script>
+        var _gauges = _gauges || [];
+        (function () {
+            var t = document.createElement('script');
+            t.type = 'text/javascript';
+            t.async = true;
+            t.id = 'gauges-tracker';
+            t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+            t.src = '//secure.gaug.es/track.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(t, s);
+        })();
+    </script>
+
+</body>
+
+</html>    
